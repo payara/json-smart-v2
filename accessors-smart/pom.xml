@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.minidev</groupId>
     <artifactId>accessors-smart</artifactId>
-    <version>1.2</version>
+    <version>1.2-payara-p1</version>
     <name>ASM based accessors helper used by json-smart</name>
     <description>Java reflect give poor performance on getter setter an constructor calls, accessors-smart use ASM to speed up those calls.
     </description>
@@ -46,7 +46,27 @@
         <dependency>
             <groupId>org.ow2.asm</groupId>
             <artifactId>asm</artifactId>
-            <version>5.0.4</version>
+            <version>6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-commons</artifactId>
+            <version>6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-tree</artifactId>
+            <version>6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-util</artifactId>
+            <version>6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-xml</artifactId>
+            <version>6.0</version>
         </dependency>
     </dependencies>
 
